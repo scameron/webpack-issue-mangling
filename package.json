@@ -1,0 +1,21 @@
+{
+  "name": "webpack-issue-mangling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build-debug": "node --inspect-brk ./node_modules/webpack/bin/webpack.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "typescript": "^4.9.5",
+    "webpack": "5.97.1",
+    "webpack-cli": "5.1.4"
+  }
+}
